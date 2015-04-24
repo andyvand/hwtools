@@ -1,0 +1,1097 @@
+Decided to use intel-conf1
+Mapping bus 00
+Discovered device 00:00.0
+0000:00:00.0 Host bridge [0600]: Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller [8086:0150] (rev 09)
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+00: 86 80 50 01 06 00 90 20 09 00 00 06 00 00 00 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 e0 00 00 00 00 00 00 00 00 00 00 00
+40: 01 90 d1 fe 00 00 00 00 01 00 d1 fe 00 00 00 00
+50: 03 00 00 00 09 00 00 00 00 00 00 00 01 00 00 df
+60: 05 00 00 f8 00 00 00 00 01 80 d1 fe 00 00 00 00
+70: 00 00 00 ff 01 00 00 00 00 0c 00 ff 7f 00 00 00
+80: 10 11 11 00 00 11 11 00 1a 00 00 00 00 00 00 00
+90: 01 00 00 ff 01 00 00 00 01 00 f0 1e 02 00 00 00
+a0: 01 00 00 00 02 00 00 00 01 00 00 1f 02 00 00 00
+b0: 01 00 00 e0 01 00 00 e0 01 00 00 df 01 00 00 e0
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 09 00 0c 01 92 80 80 e2 d0 00 50 14 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 c8 0f 09 00 00 00 00 00
+
+Discovered device 00:01.0
+0000:00:01.0 PCI bridge [0604]: Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port [8086:0151] (rev 09) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000e000-0000efff
+	Memory behind bridge: f7e00000-f7efffff
+	Prefetchable memory behind bridge: 0000000220000000-000000022fffffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA+ MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [88] Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Capabilities: [80] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [a0] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 256 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #2, Speed 5GT/s, Width x16, ASPM L0s L1, Latency L0 <256ns, L1 <8us
+			ClockPM- Surprise- LLActRep- BwNot+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 5GT/s, Width x16, TrErr- Train- SlotClk+ DLActive- BWMgmt+ ABWMgmt+
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #1, PowerLimit 75.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+			Changed: MRL- PresDet- LinkState-
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Not Supported, TimeoutDis- ARIFwd-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -3.5dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+00: 86 80 51 01 07 00 10 00 09 00 04 06 10 00 81 00
+10: 00 00 00 00 00 00 00 00 00 01 01 00 e0 e0 00 20
+20: e0 f7 e0 f7 01 20 f1 2f 02 00 00 00 02 00 00 00
+30: 00 00 00 00 88 00 00 00 00 00 00 00 10 01 18 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0a
+80: 01 90 03 c8 08 00 00 00 0d 80 00 00 43 10 ca 84
+90: 05 a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 10 00 42 01 01 80 00 00 20 00 00 00 02 ad 61 02
+b0: 40 00 02 d1 80 25 0c 00 00 00 40 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 06 00 00 00
+d0: 42 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 01 00 00 00 00 00 01 00 10 00
+
+## 00.01:0 is a bridge from 00 to 01-01
+Discovered device 00:14.0
+0000:00:14.0 USB controller [0c03]: Intel Corporation 7 Series/C210 Series Chipset Family USB xHCI Host Controller [8086:1e31] (rev 04) (prog-if 30 [XHCI])
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at f7f00000 (64-bit, non-prefetchable)
+	Capabilities: [70] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0-,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [80] MSI: Enable+ Count=1/8 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4070
+00: 86 80 31 1e 06 04 90 02 04 30 03 0c 00 00 00 00
+10: 04 00 f0 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 70 00 00 00 00 00 00 00 10 01 00 00
+40: fd 0f 0e 80 39 c0 03 80 00 00 00 00 00 00 00 00
+50: 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 30 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 01 80 c2 c1 08 00 00 00 00 00 00 00 00 00 00 00
+80: 05 00 87 00 00 00 e0 fe 00 00 00 00 70 40 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 8f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 03 0c 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 0f 00 00 00 0f 00 00 00 0f 00 00 00 0f 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+Discovered device 00:16.0
+0000:00:16.0 Communication controller [0780]: Intel Corporation 7 Series/C210 Series Chipset Family MEI Controller #1 [8086:1e3a] (rev 04)
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 21
+	Region 0: Memory at f7f1a000 (64-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4072
+00: 86 80 3a 1e 06 04 10 00 04 00 80 07 00 00 80 00
+10: 04 a0 f1 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 50 00 00 00 00 00 00 00 15 01 00 00
+40: 55 02 00 1e 10 00 01 80 06 01 00 66 f0 1f 00 10
+50: 01 8c 03 c8 08 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 05 00 81 00
+90: 00 00 e0 fe 00 00 00 00 72 40 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 c0
+c0: 9a 46 84 11 b5 dd 4d 77 60 1a 67 fc 9b b0 9d 33
+d0: 94 17 44 c5 e1 c5 02 ea d8 d1 1b 73 5e 29 da 3c
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+Discovered device 00:1a.0
+0000:00:1a.0 USB controller [0c03]: Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2 [8086:1e2d] (rev 04) (prog-if 20 [EHCI])
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 23
+	Region 0: Memory at f7f18000 (32-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [58] Debug port: BAR=1 offset=00a0
+	Capabilities: [98] PCI Advanced Features
+		AFCap: TP+ FLR+
+		AFCtrl: FLR-
+		AFStatus: TP-
+00: 86 80 2d 1e 06 00 90 02 04 20 03 0c 00 00 00 00
+10: 00 80 f1 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 50 00 00 00 00 00 00 00 17 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 01 58 c2 c9 00 00 00 00 0a 98 a0 20 00 00 00 00
+60: 20 20 ff 07 00 00 00 00 01 00 00 01 00 00 00 e0
+70: 00 00 df 3f 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 80 00 11 88 0c 93 30 0d 00 24 00 00 00 00
+90: 00 00 00 00 00 00 00 00 13 00 06 03 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 aa ff 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 04 93 01 7c
+f0: 00 00 00 00 88 85 80 00 87 0f 04 08 08 17 5b 20
+
+Discovered device 00:1b.0
+0000:00:1b.0 Audio device [0403]: Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller [8086:1e20] (rev 04)
+	Subsystem: ASUSTeK Computer Inc. Device [1043:8445]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 22
+	Region 0: Memory at f7f10000 (64-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=55mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4073
+	Capabilities: [70] Express (v1) Root Complex Integrated Endpoint, MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE- FLReset+
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop+
+			MaxPayload 128 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #0, Speed unknown, Width x0, ASPM unknown, Latency L0 <64ns, L1 <1us
+			ClockPM- Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM Disabled; Disabled- Retrain- CommClk-
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed unknown, Width x0, TrErr- Train- SlotClk- DLActive- BWMgmt- ABWMgmt-
+00: 86 80 20 1e 06 04 10 00 04 00 03 04 10 00 00 00
+10: 04 00 f1 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 45 84
+30: 00 00 00 00 50 00 00 00 00 00 00 00 16 01 00 00
+40: 01 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00
+50: 01 60 42 c8 00 00 00 00 00 00 00 00 00 00 00 00
+60: 05 70 81 00 00 00 e0 fe 00 00 00 00 73 40 00 00
+70: 10 00 91 00 00 00 00 10 00 08 10 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 04 02 01 00 24 00 c0 00 0c a3 82 10 00 31 02
+d0: 00 0c a3 02 10 00 33 02 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+Discovered device 00:1c.0
+0000:00:1c.0 PCI bridge [0604]: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 1 [8086:1e10] (rev c4) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #1, Speed 5GT/s, Width x4, ASPM L0s L1, Latency L0 <1us, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk-
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x0, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #0, PowerLimit 25.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet- Interlock-
+			Changed: MRL- PresDet- LinkState-
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range BC, TimeoutDis+ ARIFwd-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 2.5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Capabilities: [a0] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 10 1e 07 00 10 00 c4 00 04 06 10 00 81 00
+10: 00 00 00 00 00 00 00 00 00 02 02 00 f0 00 00 20
+20: f0 ff 00 00 f1 ff 01 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 10 01 10 00
+40: 10 80 42 01 00 80 00 00 00 00 10 00 42 4c 12 01
+50: 00 00 01 10 00 fd 04 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 16 00 00 00 00 00 00 00 00 00 00 00
+70: 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 43 10 ca 84 00 00 00 00 00 00 00 00
+a0: 01 00 02 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 01 02 0b 00 00 00 80 11 01 00 00 00 00
+e0: 00 3f 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+## 00.1c:0 is a bridge from 00 to 02-02
+Discovered device 00:1c.4
+0000:00:1c.4 PCI bridge [0604]: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 5 [8086:1e18] (rev c4) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+	Memory behind bridge: f7d00000-f7dfffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #5, Speed 5GT/s, Width x1, ASPM L0s L1, Latency L0 <512ns, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt- ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #4, PowerLimit 10.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+			Changed: MRL- PresDet- LinkState-
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range BC, TimeoutDis+ ARIFwd-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Capabilities: [a0] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 18 1e 07 00 10 00 c4 00 04 06 10 00 81 00
+10: 00 00 00 00 00 00 00 00 00 03 03 00 f0 00 00 00
+20: d0 f7 d0 f7 f1 ff 01 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 10 01 10 00
+40: 10 80 42 01 00 80 00 00 00 00 10 00 12 3c 12 05
+50: 40 00 11 30 00 b2 24 00 00 00 40 00 00 00 00 00
+60: 00 00 00 00 16 00 00 00 00 00 00 00 00 00 00 00
+70: 02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 43 10 ca 84 00 00 00 00 00 00 00 00
+a0: 01 00 02 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 01 02 0b 00 00 00 80 11 01 00 00 00 00
+e0: 00 3f 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+## 00.1c:4 is a bridge from 00 to 03-03
+Discovered device 00:1c.5
+0000:00:1c.5 PCI bridge [0604]: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 6 [8086:1e1a] (rev c4) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff
+	Prefetchable memory behind bridge: 000000021f000000-000000021f0fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr+ UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #6, Speed 5GT/s, Width x1, ASPM L0s L1, Latency L0 <512ns, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt+ ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #5, PowerLimit 10.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+			Changed: MRL- PresDet- LinkState-
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range BC, TimeoutDis+ ARIFwd-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Capabilities: [a0] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 1a 1e 07 00 10 00 c4 00 04 06 10 00 81 00
+10: 00 00 00 00 00 00 00 00 00 04 04 00 d0 d0 00 00
+20: f0 ff 00 00 01 1f 01 1f 02 00 00 00 02 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 11 02 10 00
+40: 10 80 42 01 00 80 00 00 00 00 11 00 12 3c 12 06
+50: 40 00 11 70 00 b2 2c 00 00 00 40 00 00 00 00 00
+60: 00 00 00 00 16 00 00 00 00 00 00 00 00 00 00 00
+70: 02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 43 10 ca 84 00 00 00 00 00 00 00 00
+a0: 01 00 02 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 01 02 0b 00 00 00 80 11 01 00 00 00 00
+e0: 00 03 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+## 00.1c:5 is a bridge from 00 to 04-04
+Discovered device 00:1c.6
+0000:00:1c.6 PCI bridge [0604]: Intel Corporation 82801 PCI Bridge [8086:244e] (rev c4) (prog-if 01 [Subtractive decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=05, subordinate=06, sec-latency=0
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [40] Express (v2) Root Port (Slot+), MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us
+			ExtTag- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 128 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #7, Speed 5GT/s, Width x1, ASPM L0s L1, Latency L0 <1us, L1 <16us
+			ClockPM- Surprise- LLActRep+ BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk-
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt- ABWMgmt-
+		SltCap:	AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug- Surprise-
+			Slot #6, PowerLimit 10.000W; Interlock- NoCompl+
+		SltCtl:	Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+			Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+		SltSta:	Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+			Changed: MRL- PresDet- LinkState-
+		RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+		RootCap: CRSVisible-
+		RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+		DevCap2: Completion Timeout: Range BC, TimeoutDis+ ARIFwd-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis- ARIFwd-
+		LnkCtl2: Target Link Speed: 5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: 00000000  Data: 0000
+	Capabilities: [90] Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Capabilities: [a0] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+00: 86 80 4e 24 07 00 10 00 c4 01 04 06 10 00 81 00
+10: 00 00 00 00 00 00 00 00 00 05 06 00 f0 00 00 20
+20: f0 ff 00 00 f1 ff 01 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 12 03 10 00
+40: 10 80 42 01 00 80 00 00 00 00 10 00 12 4c 12 07
+50: 00 00 11 30 00 b2 34 00 00 00 40 00 00 00 00 00
+60: 00 00 00 00 16 00 00 00 00 00 00 00 00 00 00 00
+70: 02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 0d a0 00 00 43 10 ca 84 00 00 00 00 00 00 00 00
+a0: 01 00 02 c8 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 01 02 0b 00 00 00 80 11 01 00 00 00 00
+e0: 00 03 00 00 00 00 00 00 01 00 00 00 03 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+## 00.1c:6 is a bridge from 00 to 05-06
+Discovered device 00:1d.0
+0000:00:1d.0 USB controller [0c03]: Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1 [8086:1e26] (rev 04) (prog-if 20 [EHCI])
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 23
+	Region 0: Memory at f7f17000 (32-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 2
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [58] Debug port: BAR=1 offset=00a0
+	Capabilities: [98] PCI Advanced Features
+		AFCap: TP+ FLR+
+		AFCtrl: FLR-
+		AFStatus: TP-
+00: 86 80 26 1e 06 00 90 02 04 20 03 0c 00 00 00 00
+10: 00 70 f1 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 50 00 00 00 00 00 00 00 17 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 01 58 c2 c9 00 00 00 00 0a 98 a0 20 00 00 00 00
+60: 20 20 ff 07 00 00 00 00 01 00 00 01 00 00 00 e0
+70: 00 00 df 3f 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 80 00 11 88 0c 93 30 0d 00 24 00 00 00 00
+90: 00 00 00 00 00 00 00 00 13 00 06 03 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 aa ff 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 04 d3 21 7c
+f0: 00 00 00 00 88 85 80 00 87 0f 04 08 08 17 5b 20
+
+Discovered device 00:1f.0
+0000:00:1f.0 ISA bridge [0601]: Intel Corporation H77 Express Chipset LPC Controller [8086:1e4a] (rev 04)
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+00: 86 80 4a 1e 07 00 10 02 04 00 01 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 e0 00 00 00 00 00 00 00 00 00 00 00
+40: 01 04 00 00 80 00 00 00 01 05 00 00 10 00 00 00
+50: f8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 0b 0a 0a 03 90 00 00 00 80 05 0b 04 f8 f0 00 00
+70: 78 f0 78 f0 78 f0 78 f0 78 f0 78 f0 78 f0 78 f0
+80: 10 00 0f 3c 91 02 0c 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 0f 00 00 00 00 00 00 00 00 00 00
+a0: 08 0e a0 00 09 18 06 00 00 47 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 33 22 11 00 67 45 00 00 cf ff 00 00 08 00 00 00
+e0: 09 00 0c 10 00 00 00 00 b3 02 64 04 00 00 00 00
+f0: 01 c0 d1 fe 00 00 00 00 87 0f 04 08 00 00 00 00
+
+Discovered device 00:1f.2
+0000:00:1f.2 SATA controller [0106]: Intel Corporation 7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode] [8086:1e02] (rev 04) (prog-if 01 [AHCI 1.0])
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin B routed to IRQ 19
+	Region 0: I/O ports at f070
+	Region 1: I/O ports at f060
+	Region 2: I/O ports at f050
+	Region 3: I/O ports at f040
+	Region 4: I/O ports at f020
+	Region 5: Memory at f7f16000 (32-bit, non-prefetchable)
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+		Address: fee00000  Data: 4071
+	Capabilities: [70] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [a8] SATA HBA v1.0 BAR4 Offset=00000004
+	Capabilities: [b0] PCI Advanced Features
+		AFCap: TP+ FLR+
+		AFCtrl: FLR-
+		AFStatus: TP-
+00: 86 80 02 1e 07 04 b0 02 04 01 06 01 00 00 00 00
+10: 71 f0 00 00 61 f0 00 00 51 f0 00 00 41 f0 00 00
+20: 21 f0 00 00 00 60 f1 f7 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 80 00 00 00 00 00 00 00 13 02 00 00
+40: 00 80 00 80 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 01 a8 03 40 08 00 00 00 00 00 00 00 00 00 00 00
+80: 05 70 01 00 00 00 e0 fe 71 40 00 00 00 00 00 00
+90: 60 38 07 87 83 01 00 38 08 42 5c 01 00 00 00 00
+a0: e0 00 00 00 39 00 39 00 12 b0 10 00 48 00 00 00
+b0: 13 00 06 03 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+Discovered device 00:1f.3
+0000:00:1f.3 SMBus [0c05]: Intel Corporation 7 Series/C210 Series Chipset Family SMBus Controller [8086:1e22] (rev 04)
+	Subsystem: ASUSTeK Computer Inc. Device [1043:84ca]
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 18
+	Region 0: Memory at f7f15000 (64-bit, non-prefetchable)
+	Region 4: I/O ports at f000
+00: 86 80 22 1e 03 00 80 02 04 00 05 0c 00 00 00 00
+10: 04 50 f1 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 01 f0 00 00 00 00 00 00 00 00 00 00 43 10 ca 84
+30: 00 00 00 00 00 00 00 00 00 00 00 00 12 03 00 00
+40: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 03 04 04 00 00 00 08 08 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 87 0f 04 08 00 00 00 00
+
+Mapping bus 01
+Discovered device 01:00.0
+0000:01:00.0 VGA compatible controller [0300]: Advanced Micro Devices [AMD] nee ATI Caicos [Radeon HD 6450] [1002:6779] (prog-if 00 [VGA controller])
+	Subsystem: ASUSTeK Computer Inc. Device [1043:03da]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at 220000000 (64-bit, prefetchable)
+	Region 2: Memory at f7e20000 (64-bit, non-prefetchable)
+	Region 4: I/O ports at e000
+	Expansion ROM at f7e00000 [disabled]
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [58] Express (v2) Legacy Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <4us, L1 unlimited
+			ExtTag+ AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag+ PhantFunc- AuxPwr- NoSnoop+
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr+ UncorrErr- FatalErr- UnsuppReq+ AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 5GT/s, Width x16, ASPM L0s L1, Latency L0 <64ns, L1 <1us
+			ClockPM- Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 5GT/s, Width x16, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Not Supported, TimeoutDis-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-
+		LnkCtl2: Target Link Speed: 5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [a0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4074
+00: 02 10 79 67 07 04 10 00 00 00 00 03 10 00 80 00
+10: 0c 00 00 20 02 00 00 00 04 00 e2 f7 00 00 00 00
+20: 01 e0 00 00 00 00 00 00 00 00 00 00 43 10 da 03
+30: 00 00 e0 f7 50 00 00 00 00 00 00 00 10 01 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 da 03
+50: 01 58 03 06 00 00 00 00 10 a0 12 00 a1 8f 2c 01
+60: 20 29 09 00 02 0d 00 00 40 00 02 11 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 02 00 01 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 05 00 81 00 00 00 e0 fe 00 00 00 00 74 40 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+Discovered device 01:00.1
+0000:01:00.1 Audio device [0403]: Advanced Micro Devices [AMD] nee ATI Caicos HDMI Audio [Radeon HD 6400 Series] [1002:aa98]
+	Subsystem: ASUSTeK Computer Inc. Device [1043:aa98]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 17
+	Region 0: Memory at f7e40000 (64-bit, non-prefetchable)
+	Capabilities: [50] Power Management version 3
+		Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [58] Express (v2) Legacy Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <4us, L1 unlimited
+			ExtTag+ AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop+
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr+ UncorrErr- FatalErr- UnsuppReq+ AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 5GT/s, Width x16, ASPM L0s L1, Latency L0 <64ns, L1 <1us
+			ClockPM- Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 5GT/s, Width x16, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Not Supported, TimeoutDis-
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-
+		LnkCtl2: Target Link Speed: 2.5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [a0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4076
+00: 02 10 98 aa 06 04 10 00 00 00 03 04 10 00 80 00
+10: 04 00 e4 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 98 aa
+30: 00 00 00 00 50 00 00 00 00 00 00 00 11 02 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 43 10 98 aa
+50: 01 58 03 06 00 00 00 00 10 a0 12 00 a1 8f 2c 01
+60: 20 28 09 00 02 0d 00 00 40 00 02 11 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 05 00 81 00 00 00 e0 fe 00 00 00 00 76 40 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+Mapping bus 02
+Mapping bus 03
+Discovered device 03:00.0
+0000:03:00.0 Network controller [0280]: Atheros Communications Inc. AR9285 Wireless Network Adapter (PCI-Express) [168c:002b] (rev 01)
+	Subsystem: Atheros Communications Inc. Device [168c:30a1]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr+ Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at f7d00000 (64-bit, non-prefetchable)
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1+ D2- AuxCurrent=375mA PME(D0+,D1+,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit-
+		Address: fee00000  Data: 4077
+	Capabilities: [60] Express (v2) Legacy Endpoint, MSI 00
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <512ns, L1 <64us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 2.5GT/s, Width x1, ASPM L0s L1, Latency L0 <512ns, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Not Supported, TimeoutDis+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-
+		LnkCtl2: Target Link Speed: 2.5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -6dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+00: 8c 16 2b 00 47 01 10 00 01 00 80 02 10 00 00 00
+10: 04 00 d0 f7 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 8c 16 a1 30
+30: 00 00 00 00 40 00 00 00 00 00 00 00 10 01 00 00
+40: 01 50 c3 5b 00 00 00 00 00 00 00 00 00 00 00 00
+50: 05 60 00 00 00 00 e0 fe 77 40 00 00 00 00 00 00
+60: 10 00 12 00 c0 8c 90 05 00 20 00 00 11 3c 03 00
+70: 40 00 11 10 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 10 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+Mapping bus 04
+Discovered device 04:00.0
+0000:04:00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller [10ec:8168] (rev 09)
+	Subsystem: ASUSTeK Computer Inc. Device [1043:8505]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 17
+	Region 0: I/O ports at d000
+	Region 2: Memory at 21f004000 (64-bit, prefetchable)
+	Region 4: Memory at 21f000000 (64-bit, prefetchable)
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=375mA PME(D0+,D1+,D2+,D3hot+,D3cold+)
+		Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit+
+		Address: 00000000fee00000  Data: 4075
+	Capabilities: [70] Express (v2) Endpoint, MSI 01
+		DevCap:	MaxPayload 128 bytes, PhantFunc 0, Latency L0s <512ns, L1 <64us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+			MaxPayload 128 bytes, MaxReadReq 4096 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+		LnkCap:	Port #0, Speed 2.5GT/s, Width x1, ASPM L0s L1, Latency L0 unlimited, L1 <64us
+			ClockPM+ Surprise- LLActRep- BwNot-
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- Retrain- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-
+		LnkCtl2: Target Link Speed: 2.5GT/s, EnterCompliance- SpeedDis-, Selectable De-emphasis: -6dB
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -6dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=4 Masked-
+		Vector table: BAR=4 offset=00000000
+		PBA: BAR=4 offset=00000800
+	Capabilities: [d0] Vital Product Data
+		Not readable
+00: ec 10 68 81 07 00 10 00 09 00 00 02 10 00 00 00
+10: 01 d0 00 00 00 00 00 00 0c 40 00 1f 02 00 00 00
+20: 0c 00 00 1f 02 00 00 00 00 00 00 00 43 10 05 85
+30: 00 00 00 00 40 00 00 00 00 00 00 00 11 01 00 00
+40: 01 50 c3 ff 08 00 00 00 00 00 00 00 00 00 00 00
+50: 05 70 80 00 00 00 e0 fe 00 00 00 00 75 40 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 10 b0 02 02 c0 8c 90 05 00 50 10 00 11 7c 07 00
+80: 40 00 11 10 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 1f 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 11 d0 03 00 04 00 00 00 04 08 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+Mapping bus 05
+Discovered device 05:00.0
+0000:05:00.0 PCI bridge [0604]: ASMedia Technology Inc. ASM1083/1085 PCIe to PCI Bridge [1b21:1080] (rev 03) (prog-if 01 [Subtractive decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=05, secondary=06, subordinate=06, sec-latency=64
+	Secondary status: 66MHz+ FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: [c0] Subsystem: ASUSTeK Computer Inc. Device [1043:8489]
+00: 21 1b 80 10 07 00 10 00 03 01 04 06 10 00 01 00
+10: 00 00 00 00 00 00 00 00 05 06 06 40 f1 01 20 20
+20: f0 ff 00 00 f1 ff 01 00 00 00 00 00 00 00 00 00
+30: ff 00 00 00 c0 00 00 00 00 00 00 00 12 01 10 00
+40: 60 60 00 00 00 07 00 00 00 00 00 00 a7 27 00 00
+50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 0d 00 00 00 43 10 89 84 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+## 05.00:0 is a bridge from 05 to 06-06
+Mapping bus 06
+Mapping bus 07
+Mapping bus 08
+Mapping bus 09
+Mapping bus 0a
+Mapping bus 0b
+Mapping bus 0c
+Mapping bus 0d
+Mapping bus 0e
+Mapping bus 0f
+Mapping bus 10
+Mapping bus 11
+Mapping bus 12
+Mapping bus 13
+Mapping bus 14
+Mapping bus 15
+Mapping bus 16
+Mapping bus 17
+Mapping bus 18
+Mapping bus 19
+Mapping bus 1a
+Mapping bus 1b
+Mapping bus 1c
+Mapping bus 1d
+Mapping bus 1e
+Mapping bus 1f
+Mapping bus 20
+Mapping bus 21
+Mapping bus 22
+Mapping bus 23
+Mapping bus 24
+Mapping bus 25
+Mapping bus 26
+Mapping bus 27
+Mapping bus 28
+Mapping bus 29
+Mapping bus 2a
+Mapping bus 2b
+Mapping bus 2c
+Mapping bus 2d
+Mapping bus 2e
+Mapping bus 2f
+Mapping bus 30
+Mapping bus 31
+Mapping bus 32
+Mapping bus 33
+Mapping bus 34
+Mapping bus 35
+Mapping bus 36
+Mapping bus 37
+Mapping bus 38
+Mapping bus 39
+Mapping bus 3a
+Mapping bus 3b
+Mapping bus 3c
+Mapping bus 3d
+Mapping bus 3e
+Mapping bus 3f
+Mapping bus 40
+Mapping bus 41
+Mapping bus 42
+Mapping bus 43
+Mapping bus 44
+Mapping bus 45
+Mapping bus 46
+Mapping bus 47
+Mapping bus 48
+Mapping bus 49
+Mapping bus 4a
+Mapping bus 4b
+Mapping bus 4c
+Mapping bus 4d
+Mapping bus 4e
+Mapping bus 4f
+Mapping bus 50
+Mapping bus 51
+Mapping bus 52
+Mapping bus 53
+Mapping bus 54
+Mapping bus 55
+Mapping bus 56
+Mapping bus 57
+Mapping bus 58
+Mapping bus 59
+Mapping bus 5a
+Mapping bus 5b
+Mapping bus 5c
+Mapping bus 5d
+Mapping bus 5e
+Mapping bus 5f
+Mapping bus 60
+Mapping bus 61
+Mapping bus 62
+Mapping bus 63
+Mapping bus 64
+Mapping bus 65
+Mapping bus 66
+Mapping bus 67
+Mapping bus 68
+Mapping bus 69
+Mapping bus 6a
+Mapping bus 6b
+Mapping bus 6c
+Mapping bus 6d
+Mapping bus 6e
+Mapping bus 6f
+Mapping bus 70
+Mapping bus 71
+Mapping bus 72
+Mapping bus 73
+Mapping bus 74
+Mapping bus 75
+Mapping bus 76
+Mapping bus 77
+Mapping bus 78
+Mapping bus 79
+Mapping bus 7a
+Mapping bus 7b
+Mapping bus 7c
+Mapping bus 7d
+Mapping bus 7e
+Mapping bus 7f
+Mapping bus 80
+Mapping bus 81
+Mapping bus 82
+Mapping bus 83
+Mapping bus 84
+Mapping bus 85
+Mapping bus 86
+Mapping bus 87
+Mapping bus 88
+Mapping bus 89
+Mapping bus 8a
+Mapping bus 8b
+Mapping bus 8c
+Mapping bus 8d
+Mapping bus 8e
+Mapping bus 8f
+Mapping bus 90
+Mapping bus 91
+Mapping bus 92
+Mapping bus 93
+Mapping bus 94
+Mapping bus 95
+Mapping bus 96
+Mapping bus 97
+Mapping bus 98
+Mapping bus 99
+Mapping bus 9a
+Mapping bus 9b
+Mapping bus 9c
+Mapping bus 9d
+Mapping bus 9e
+Mapping bus 9f
+Mapping bus a0
+Mapping bus a1
+Mapping bus a2
+Mapping bus a3
+Mapping bus a4
+Mapping bus a5
+Mapping bus a6
+Mapping bus a7
+Mapping bus a8
+Mapping bus a9
+Mapping bus aa
+Mapping bus ab
+Mapping bus ac
+Mapping bus ad
+Mapping bus ae
+Mapping bus af
+Mapping bus b0
+Mapping bus b1
+Mapping bus b2
+Mapping bus b3
+Mapping bus b4
+Mapping bus b5
+Mapping bus b6
+Mapping bus b7
+Mapping bus b8
+Mapping bus b9
+Mapping bus ba
+Mapping bus bb
+Mapping bus bc
+Mapping bus bd
+Mapping bus be
+Mapping bus bf
+Mapping bus c0
+Mapping bus c1
+Mapping bus c2
+Mapping bus c3
+Mapping bus c4
+Mapping bus c5
+Mapping bus c6
+Mapping bus c7
+Mapping bus c8
+Mapping bus c9
+Mapping bus ca
+Mapping bus cb
+Mapping bus cc
+Mapping bus cd
+Mapping bus ce
+Mapping bus cf
+Mapping bus d0
+Mapping bus d1
+Mapping bus d2
+Mapping bus d3
+Mapping bus d4
+Mapping bus d5
+Mapping bus d6
+Mapping bus d7
+Mapping bus d8
+Mapping bus d9
+Mapping bus da
+Mapping bus db
+Mapping bus dc
+Mapping bus dd
+Mapping bus de
+Mapping bus df
+Mapping bus e0
+Mapping bus e1
+Mapping bus e2
+Mapping bus e3
+Mapping bus e4
+Mapping bus e5
+Mapping bus e6
+Mapping bus e7
+Mapping bus e8
+Mapping bus e9
+Mapping bus ea
+Mapping bus eb
+Mapping bus ec
+Mapping bus ed
+Mapping bus ee
+Mapping bus ef
+Mapping bus f0
+Mapping bus f1
+Mapping bus f2
+Mapping bus f3
+Mapping bus f4
+Mapping bus f5
+Mapping bus f6
+Mapping bus f7
+Mapping bus f8
+Mapping bus f9
+Mapping bus fa
+Mapping bus fb
+Mapping bus fc
+Mapping bus fd
+Mapping bus fe
+Mapping bus ff
+
+Summary of buses:
+
+00: Primary host bus
+	1c.6 Bridge to 05-06
+	1c.5 Bridge to 04-04
+	1c.4 Bridge to 03-03
+	1c.0 Bridge to 02-02
+	01.0 Bridge to 01-01
+01: Entered via 00:01.0
+03: Entered via 00:1c.4
+04: Entered via 00:1c.5
+05: Entered via 00:1c.6
+	00.0 Bridge to 06-06

@@ -1,0 +1,3 @@
+./build/pte_mmap.o
+./build/pte_mmap_linux.o
+./build/pmem.o

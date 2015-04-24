@@ -1,0 +1,1 @@
+ifdtool.o: ifdtool.c ifdtool.h
